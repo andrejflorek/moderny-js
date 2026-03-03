@@ -65,7 +65,7 @@ true = true, false
 false = false, false
  */
 
-let teplota = 29
+let teplota = 24
 
 if (teplota <= 20 ){
     console.log("Je chladno")
@@ -75,7 +75,12 @@ if (teplota <= 20 ){
     console.log("Je horuco")
 }
 
+let weight = 100
+let width = 190
 
+if (weight === 100 || width === 190){
+    console.log("Skontrolovat")
+}
 
 
 
