@@ -82,7 +82,36 @@ if (weight === 100 || width === 190){
     console.log("Skontrolovat")
 }
 
+//Funkcie
 
+function pozdrav (){
+    console.log("Nazdar1")
+}
+
+let pozdrav2 = function(){
+    console.log("Ahoj")
+}
+
+pozdrav2()
+
+pozdrav()
+pozdrav()
+pozdrav()
+pozdrav()
+
+//Funkcie - parameter a argument
+
+let naDruhu = function(num /* parameter */){
+    console.log(num*num)
+} 
+
+naDruhu(2/* argument */)
+
+let zdraviciFunkce = function(name){
+    console.log("ahoj ja som " + name)
+}
+
+zdraviciFunkce("Andrej")
 
 
 
